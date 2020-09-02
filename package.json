@@ -1,6 +1,6 @@
 {
   "name": "@itplusx/nuxt-thumbor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Thumbor module for nuxt.js.",
   "repository": "itplusx/nuxt-thumbor",
   "license": "MIT",
