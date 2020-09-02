@@ -1,0 +1,43 @@
+{
+  "name": "@itplusx/nuxt-thumbor",
+  "version": "0.1.0",
+  "description": "Thumbor module for nuxt.js.",
+  "repository": "itplusx/nuxt-thumbor",
+  "license": "MIT",
+  "author": "ITplusX GmbH",
+  "contributors": [
+    {
+      "name": "Vaclav Janoch <janoch@itplusx.de>"
+    }
+  ],
+  "keywords": [
+    "nuxt",
+    "thumbor"
+  ],
+  "main": "src/module.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "thumbor-ts": "^1.3.90"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@itplusx/eslint-config": "^1.0.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/module-test-utils": "^1.6.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "nuxt": "^2.14.4",
+    "standard-version": "^9.0.0"
+  }
+}
